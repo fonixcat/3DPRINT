@@ -42,7 +42,15 @@ showItems(featured);
 
 }
 
+function showAllModels(){
 
+document
+.getElementById("sectionTitle")
+.innerText = "Todos os Modelos";
+
+showItems(models);
+
+}
 
 function createCategories(){
 
@@ -64,11 +72,21 @@ container.innerHTML +=
 class="category-btn"
 onclick="showFeatured()">
 
+Destaque
+
+</button>
+
+<button
+class="category-btn"
+onclick="showAllModels()">
+
 Todos
 
 </button>
 
 `;
+
+  
 
 
 
