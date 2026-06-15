@@ -5,6 +5,8 @@
 "title":"Vaso Tartaruga",
 "description":"Vaso decorativo",
 
+"feature":true,
+  
 "categories":[
 "C6",
 "vasos",
@@ -25,6 +27,8 @@
 "title":"Vaso Geométrico",
 "description":"Vaso decorativo",
 
+"feature":true,
+  
 "categories":[
 "C12",
 "vasos",
@@ -43,6 +47,8 @@
 "title":"Caixa Organizadora, cartas, cromos",
 "description":"Caixa com divisória",
 
+"feature":true,
+  
 "categories":[
 "C8",
 "caixa",
@@ -61,10 +67,10 @@
 
 {
 "id":"Caixa02",
-
 "title":"Caixa cartas, cromos",
-
 "description":"Caixa tampa deslizante",
+
+  "feature":false,
 
 "categories":[
 "C6",
@@ -84,6 +90,8 @@
 "id":"Cozinha01",
 "title":"Escoador de água",
 "description":"Escoador de massas",
+
+"feature":false,
 
 "categories":[
 "C3",
