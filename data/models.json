@@ -12,8 +12,7 @@
 "vasos",
 "casa",
 "decoração",
-"animais",
-"tartaruga"
+"animais"
 ],
 
 "images":[
@@ -52,8 +51,7 @@
 "categories":[
 "C8",
 "caixa",
-"cartas",
-"cromos",
+"cartas/cromos",
 "organização"
 ],
 
@@ -75,8 +73,7 @@
 "categories":[
 "C6",
 "caixa",
-"cartas",
-"cromos",
+"cartas/cromos",
 "organização"
 ],
 
@@ -95,9 +92,9 @@
 
 "categories":[
 "C3",
+"casa",
 "cozinha",
-"utensilio",
-"esparguete"
+"utensilio"
 ],
 
 "images":[
