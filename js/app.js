@@ -1,41 +1,142 @@
 let models = [];
 
 fetch("data/models.json")
-.then(res => res.json())
+
+.then(response => response.json())
+
 .then(data => {
 
 models = data;
 
-showItems(models);
+createCategories();
+
+showFeatured();
 
 document
+
 .getElementById("searchBox")
+
 .addEventListener("input", search);
 
 });
 
-function search(){
 
-let text =
+
+function showFeatured(){
+
 document
-.getElementById("searchBox")
-.value
-.toLowerCase();
 
-let filtered =
+.getElementById("sectionTitle")
+
+.innerText = "Modelos em Destaque";
+
+const featured =
+
+models.filter(
+
+item => item.feature === true
+
+);
+
+showItems(featured);
+
+}
+
+
+
+function createCategories(){
+
+const container =
+
+document.getElementById(
+"categories"
+);
+
+container.innerHTML = "";
+
+
+
+container.innerHTML +=
+
+`
+
+<button
+class="category-btn"
+onclick="showFeatured()">
+
+Todos
+
+</button>
+
+`;
+
+
+
+const counts = {};
+
+
+
+models.forEach(item=>{
+
+item.categories.forEach(cat=>{
+
+if(!counts[cat]){
+
+counts[cat]=0;
+
+}
+
+counts[cat]++;
+
+});
+
+});
+
+
+
+Object.keys(counts)
+
+.sort()
+
+.forEach(cat=>{
+
+container.innerHTML +=
+
+`
+
+<button
+class="category-btn"
+
+onclick="filterCategory('${cat}')">
+
+${cat}
+(${counts[cat]})
+
+</button>
+
+`;
+
+});
+
+}
+
+
+
+function filterCategory(category){
+
+document
+
+.getElementById("sectionTitle")
+
+.innerText = category;
+
+
+
+const filtered =
+
 models.filter(item =>
 
-item.title.toLowerCase().includes(text)
-
-||
-
-item.description.toLowerCase().includes(text)
-
-||
-
-item.categories.some(cat =>
-cat.toLowerCase().includes(text)
-)
+item.categories.includes(category)
 
 );
 
@@ -43,21 +144,109 @@ showItems(filtered);
 
 }
 
+
+
+function search(){
+
+const text =
+
+document
+
+.getElementById("searchBox")
+
+.value
+
+.toLowerCase()
+
+.trim();
+
+
+
+if(text===""){
+
+showFeatured();
+
+return;
+
+}
+
+
+
+document
+
+.getElementById("sectionTitle")
+
+.innerText =
+
+`Pesquisa: ${text}`;
+
+
+
+const filtered =
+
+models.filter(item =>
+
+item.title
+
+.toLowerCase()
+
+.includes(text)
+
+||
+
+item.description
+
+.toLowerCase()
+
+.includes(text)
+
+||
+
+item.categories.some(cat =>
+
+cat
+
+.toLowerCase()
+
+.includes(text)
+
+)
+
+);
+
+
+
+showItems(filtered);
+
+}
+
+
+
 function showItems(items){
 
 const gallery =
-document.getElementById("gallery");
 
-gallery.innerHTML="";
+document.getElementById(
+"gallery"
+);
+
+gallery.innerHTML = "";
+
+
 
 items.forEach(item=>{
 
 const card =
+
 document.createElement("div");
 
-card.className="card";
+card.className = "card";
 
-card.innerHTML=`
+
+
+card.innerHTML =
+
+`
 
 <img src="${item.images[0]}">
 
@@ -67,10 +256,16 @@ card.innerHTML=`
 
 <p>${item.description}</p>
 
-<div class="tags">
+<div>
 
 ${item.categories
-.map(c=>`<span class="tag">${c}</span>`)
+
+.map(cat=>
+
+`<span class="tag">${cat}</span>`
+
+)
+
 .join("")}
 
 </div>
@@ -79,10 +274,17 @@ ${item.categories
 
 `;
 
-card.onclick=()=>{
-window.location=
+
+
+card.onclick = () => {
+
+window.location =
+
 `item.html?id=${item.id}`;
+
 };
+
+
 
 gallery.appendChild(card);
 
