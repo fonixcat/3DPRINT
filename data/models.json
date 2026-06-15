@@ -1,0 +1,102 @@
+[
+
+{
+"id":"Tartaruga01",
+"title":"Vaso Tartaruga",
+"description":"Vaso decorativo",
+
+"categories":[
+"C6",
+"vasos",
+"casa",
+"decoração",
+"animais",
+"tartaruga"
+],
+
+"images":[
+"images/Tartaruga01/1.jpeg",
+"images/Tartaruga01/2.jpeg"
+]
+},
+
+{
+"id":"vaso01",
+"title":"Vaso Geométrico",
+"description":"Vaso decorativo",
+
+"categories":[
+"C12",
+"vasos",
+"casa",
+"decoração"
+],
+
+"images":[
+"images/vaso01/1.jpeg",
+"images/vaso01/2.jpeg"
+]
+},
+
+{
+"id":"caixa01",
+"title":"Caixa Organizadora, cartas, cromos",
+"description":"Caixa com divisória",
+
+"categories":[
+"C8",
+"caixa",
+"cartas",
+"cromos",
+"organização"
+],
+
+"images":[
+"images/caixa01/1.jpeg",
+"images/caixa01/2.jpeg",
+"images/caixa01/3.jpeg"
+]
+},
+
+
+{
+"id":"caixa02",
+
+"title":"Caixa cartas, cromos",
+
+"description":"Caixa tampa deslizante",
+
+"categories":[
+"C6",
+"caixa",
+"cartas",
+"cromos",
+"organização"
+],
+
+"images":[
+"images/caixa02/1.jpeg",
+"images/caixa02/2.jpeg"
+]
+},
+
+{
+"id":"Cozinha01",
+"title":"Escoador de água",
+"description":"Escoador de massas",
+
+"categories":[
+"C3",
+"cozinha",
+"utensilio",
+"esparguete"
+],
+
+"images":[
+"images/Cozinha01/1.jpeg"
+]
+}
+
+
+
+]
