@@ -21,7 +21,7 @@
 },
 
 {
-"id":"vaso01",
+"id":"Vaso01",
 "title":"Vaso Geométrico",
 "description":"Vaso decorativo",
 
@@ -33,13 +33,13 @@
 ],
 
 "images":[
-"images/vaso01/1.jpeg",
-"images/vaso01/2.jpeg"
+"images/Vaso01/1.jpeg",
+"images/Vaso01/2.jpeg"
 ]
 },
 
 {
-"id":"caixa01",
+"id":"Caixa01",
 "title":"Caixa Organizadora, cartas, cromos",
 "description":"Caixa com divisória",
 
@@ -52,15 +52,15 @@
 ],
 
 "images":[
-"images/caixa01/1.jpeg",
-"images/caixa01/2.jpeg",
-"images/caixa01/3.jpeg"
+"images/Caixa01/1.jpeg",
+"images/Caixa01/2.jpeg",
+"images/Caixa01/3.jpeg"
 ]
 },
 
 
 {
-"id":"caixa02",
+"id":"Caixa02",
 
 "title":"Caixa cartas, cromos",
 
@@ -75,8 +75,8 @@
 ],
 
 "images":[
-"images/caixa02/1.jpeg",
-"images/caixa02/2.jpeg"
+"images/Caixa02/1.jpeg",
+"images/Caixa02/2.jpeg"
 ]
 },
 
