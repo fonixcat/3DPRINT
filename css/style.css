@@ -123,3 +123,34 @@ font-size:12px;
 hr{
 margin:25px 0;
 }
+
+
+
+
+.item-page{
+max-width:1000px;
+margin:auto;
+}
+
+.main-image{
+width:100%;
+max-width:700px;
+display:block;
+margin:auto;
+}
+
+.thumb-container{
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.thumb{
+width:150px;
+cursor:pointer;
+border:2px solid transparent;
+}
+
+.thumb:hover{
+border-color:black;
