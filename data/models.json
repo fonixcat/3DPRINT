@@ -1,5 +1,59 @@
 [
+{
+"id":"ORC01",
+"title":"Figura - ORC",
+"description":"ORC - figura para pintar",
 
+"feature":true,
+  
+"categories":[
+"Figura",
+"Pintar"
+],
+
+"images":[
+"images/ORC01/1.jpg"
+]
+},
+
+{
+"id":"DPOOL01",
+"title":"Figura - DeadPool",
+"description":"DeadPool - figura para pintar",
+
+"feature":true,
+  
+"categories":[
+"Figura",
+"Pintar"
+],
+
+"images":[
+"images/DPOOL01/1.jpg",
+  "images/DPOOL01/2.jpg"
+]
+},
+
+  {
+"id":"UBOAT01",
+"title":"Figura - Submarino Uboat",
+"description":"UBOAT - Diorama",
+
+"feature":true,
+  
+"categories":[
+"Figura",
+"Diorama",
+],
+
+"images":[
+"images/UBOAT01/1.jpg",
+"images/UBOAT01/2.jpg",
+"images/UBOAT01/3.jpg"
+]
+},
+
+  
 {
 "id":"ABRE_LATAS01",
 "title":"Abre Latas",
