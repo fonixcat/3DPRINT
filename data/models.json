@@ -30,20 +30,39 @@
 
 "images":[
 "images/DPOOL01/1.jpeg",
-  "images/DPOOL01/2.jpeg"
+"images/DPOOL01/2.jpeg"
 ]
 },
 
+{
+"id":"HDAM01",
+"title":"Figura - Terror de braço partido",
+"description":"Figura - Terror de braço partido",
+
+"feature":true,
+  
+"categories":[
+"Figura",
+"Pintar"
+],
+
+"images":[
+"images/HDAM01/1.jpeg",
+"images/HDAM01/2.jpeg"
+]
+},
+  
+
   {
 "id":"UBOAT01",
-"title":"Figura - Submarino Uboat",
+"title":"Diorama - Submarino Uboat",
 "description":"UBOAT - Diorama",
 
 "feature":true,
   
 "categories":[
 "Figura",
-"Diorama",
+"Diorama"
 ],
 
 "images":[
