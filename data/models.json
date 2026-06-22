@@ -3,12 +3,11 @@
 {
 "id":"ABRE_LATAS01",
 "title":"Abre Latas",
-"description":"Abre Latas Romântico",
+"description":"Abre Latas Romântico - (C1)",
 
 "feature":true,
   
 "categories":[
-"C1",
 "cozinha",
 "utensilio"
 ],
@@ -22,13 +21,11 @@
 {
 "id":"Tartaruga01",
 "title":"Vaso Tartaruga",
-"description":"Vaso decorativo - (9x9)(15x15)",
+"description":"Vaso decorativo - (C6/C9) (9x9/15x15)",
 
 "feature":true,
   
 "categories":[
-"C6",
-"C9",
 "decoração",
 "vasos",
 "animais"
@@ -43,13 +40,11 @@
 {
 "id":"Vaso01",
 "title":"Vaso Geométrico",
-"description":"Vaso decorativo (7x7)(10x10)",
+"description":"Vaso decorativo (C11/C16) (7x7/10x10)",
 
 "feature":true,
   
 "categories":[
-"C11",
-"C16",
 "decoração",
 "vasos"
 ],
@@ -63,12 +58,11 @@
 {
 "id":"Caixa01",
 "title":"Caixa Organizadora, cartas, cromos",
-"description":"Caixa com divisória",
+"description":"Caixa com divisória - (C8)",
 
 "feature":true,
   
 "categories":[
-"C8",
 "caixa",
 "cartas/cromos",
 "organização"
@@ -85,12 +79,11 @@
 {
 "id":"Caixa02",
 "title":"Caixa cartas, cromos",
-"description":"Caixa tampa deslizante",
+"description":"Caixa tampa deslizante - (C4)",
 
   "feature":false,
 
 "categories":[
-"C4",
 "caixa",
 "cartas/cromos",
 "organização"
@@ -105,12 +98,11 @@
 {
 "id":"Cozinha01",
 "title":"Escoador de água",
-"description":"Escoador de massas",
+"description":"Escoador de massas - (C4)",
 
 "feature":false,
 
 "categories":[
-"C4",
 "casa",
 "cozinha",
 "utensilio"
