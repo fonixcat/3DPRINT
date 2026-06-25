@@ -1,5 +1,40 @@
 [
 {
+"id":"Chaves01",
+"title":"Chaveiro fofinho",
+"description":"Chaveiro fofinho",
+
+"feature":true,
+  
+"categories":[
+"Chaves",
+"Pintar"
+],
+
+"images":[
+"images/Chaves01/1.jpeg"
+]
+},
+
+{
+"id":"Flor Sorridente",
+"title":"Figura - ORC",
+"description":"Flor Sorridente - figura para pintar",
+
+"feature":true,
+  
+"categories":[
+"Figura",
+"Pintar"
+],
+
+"images":[
+"images/Flor01/1.jpeg"
+]
+},
+  
+
+{
 "id":"ORC01",
 "title":"Figura - ORC",
 "description":"ORC - figura para pintar",
@@ -39,7 +74,7 @@
 "title":"Figura - Terror de braço partido",
 "description":"Figura - Terror de braço partido",
 
-"feature":true,
+"feature":false,
   
 "categories":[
 "Figura",
@@ -81,7 +116,7 @@
 "feature":true,
   
 "categories":[
-"cozinha",
+"casa",
 "utensilio"
 ],
 
@@ -99,7 +134,6 @@
 "feature":true,
   
 "categories":[
-"decoração",
 "vasos",
 "animais"
 ],
@@ -118,7 +152,6 @@
 "feature":true,
   
 "categories":[
-"decoração",
 "vasos"
 ],
 
@@ -177,7 +210,6 @@
 
 "categories":[
 "casa",
-"cozinha",
 "utensilio"
 ],
 
