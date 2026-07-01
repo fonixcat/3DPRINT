@@ -2,7 +2,7 @@
 {
 "id":"Chaves01",
 "title":"Chaveiro fofinho",
-"description":"Chaveiro fofinho - (c2)",
+"description":"Chaveiro fofinho - (C2)",
 
 "feature":true,
   
@@ -47,7 +47,7 @@
 ],
 
 "images":[
-"images/ORC01/0.jpeg"
+"images/ORC01/0.jpeg",
 "images/ORC01/1.jpeg"
 ]
 },
